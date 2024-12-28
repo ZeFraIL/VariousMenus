@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/restart"
+        android:title="Go to start screen"
+        android:icon="@drawable/restart"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/guide"
+        android:title="Guide to user"
+        android:icon="@drawable/guide_foreground"/>
+
+    <item
+        android:id="@+id/music"
+        android:title="Music service"
+        android:icon="@drawable/music" />
+
+    <item
+        android:id="@+id/back"
+        android:title="Back to prev screen"
+        android:icon="@drawable/back"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit from app"
+        android:icon="@drawable/exit"/>
+
+</menu>
